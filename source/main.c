@@ -99,6 +99,7 @@ void Tick() {
         } else {
           State = On;
         }
+        break;
       case Inc:
         State = On;
         break;
@@ -127,7 +128,7 @@ void Tick() {
         }
         break;
       case Dec:
-        if (position > 0) {
+        if (position > 0) { 
           position--;
         }
         break;
